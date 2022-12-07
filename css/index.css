@@ -1,0 +1,222 @@
+body.index {
+    background-image: url(../images/shciudad.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+body.shsol {
+
+    background-image: url(../images/sh_fondo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+
+}
+
+body {
+    font-family: fuentesh;
+    height: 100vh;
+    overflow-y: auto;
+    width: 100%;
+    overflow-y: auto;
+
+
+
+}
+
+a {
+    color: #D9D9D9;
+    text-decoration: black;
+}
+
+button {
+    padding: 30px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D9D9D9;
+    background-color: #6D0505;
+    font-size: 24px;
+    stroke: none;
+    display: flex;
+    margin-top: 35px;
+    border-radius: 1em;
+    cursor: pointer;
+    position: absolute;
+    right: 699px;
+    position: absolute;
+    bottom: 23%;
+}
+
+a:hover {
+    color: #6D0505;
+}
+
+.boton:hover {
+    background-color: #FDFDFD;
+}
+
+html {
+    font-family: arial, system-ui, Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+
+}
+
+
+
+header {
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    max-width: 1000px;
+    margin-left: 123;
+
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    width: auto;
+
+}
+
+h4.txt {
+    padding-left: 15px;
+    text-align: auto;
+    font-size: 1.5em;
+}
+
+@font-face {
+    font-family: fuentesh;
+    src: url(../shletra/SLNTHLE.TTF);
+
+}
+
+
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 15em;
+    margin-right: 10em;
+}
+
+section.juegos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+    color: white;
+}
+
+main.pages {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+main.pages2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+p.sinopsis {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+p.home {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 2em;
+    position: absolute;
+    margin-left: 50px;
+    top: 39%;
+    right: 50%;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+
+
+
+}
+
+footer.foot {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.redessociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.redessociales ul li {
+    display: inline-block;
+    margin: 25px;
+    width: 5px;
+    height: 5px;
+    text-align: auto;
+}
+
+.redesociales ul li a {
+    padding: 0 10px;
+    background: black;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+section.juegos {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+}
+
+article.art {
+    display: flex;
+    margin-top: 25px;
+    margin: 20px;
+
+}
+
+article.txt2 {
+    text-align: center;
+}
